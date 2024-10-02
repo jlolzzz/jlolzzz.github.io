@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Initial Commit"
-date: 2024-10-02
+date: 2024-09-26 14:56:02 -0400
 categories: intro inital update
 ---
 Hello Everyone!
