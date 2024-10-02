@@ -1,11 +1,10 @@
 ---
 layout: post
 title: "Initial Commit"
-Arthur: "Jlolzzz"
 date: 2024-09-26 14:56:02 -0400
 categories: intro inital update
 ---
-* Hello Everyone!
+#Hello Everyone!
 
 This is my first real post here. While I still have some configurations to do. 
 I wanted to get the ball rolling on the blog and maybe outline some of what is coming down the line. 
