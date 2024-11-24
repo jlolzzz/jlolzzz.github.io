@@ -29,6 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  jlolzzz
+{ platform: bluesky, user_url: "https://bsky.app/profile/jlolzzz.bsky.social"}
 
 # Build settings
 theme: minima
