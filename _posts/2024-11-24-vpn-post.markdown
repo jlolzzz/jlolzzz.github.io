@@ -1,0 +1,52 @@
+---
+layout: post
+title: "vpn setup"
+date: 2024-11-24 11:48:02 -0400
+categories: security vpn homelab
+---
+
+There’s is almost as many reasons to use a vpn, as there are options for a vpn. Today, 
+I wanted shed some light on the use of private self hosted vpn and why it can be handy as well as limitations. The implementation is actually 
+pretty affordable, and can be setup in an afternoon quite easily. For me I went with a raspberry pi 4 and installed pivpn (pivpn.io). The total 
+cost was less than $50 dollars and it functions great. 
+
+While there is a lot of good reasons to subscribe to a hosted vpn service, there can be some good reasons for using a personal vpn as well. 
+For me there was just enough reasons to justify the setup, but that might not be the case for everybody. I do a good amount of traveling and I 
+want access to my locally resources on the road. While I am concerned about safety and security, I also recognize the usefulness of many IoT devices. 
+So with this setup, I can keep all devices from the public internet, and only worry about one port being open the public internet. This way I can 
+still access cameras, and network storage while away, but limit the attack surface of my home network. 
+
+For this I have a raspberry pi 4, with a stacked case, and pivpn. 
+
+Links:
+
+https://www.pivpn.io/
+
+https://www.amazon.com/s?k=raspberry+pi+4&adgrpid=1343603780097116&hvadid=83975450740109&hvbmt=be&hvdev=c&hvlocphy=91114&hvnetw=o&hvqmt=e&hvtargid=kwd-83975594152578:loc-190&hydadcr=18004_13443519&msclkid=5df3113a99d61f90e94b7678ab2122a4&tag=mh0b-20&ref=pd_sl_264yo59vid_e
+
+https://www.raspberrypi.com/software/
+
+The easiest way to set it up is with the raspberry pi imager linked above. While there are other options like the dd command. This one is pretty easy and 
+allows you to adjust the configuration quickly. Its a good idea to create a user and not use the default passwords. It also helps with finishing the setup 
+later. 
+
+For the image, I selected other and chose the lite OS. Which has no desktop environment at all. So if your planning to finish the setup with a monitor 
+then you will likely want to use the full version. If you plan to finish setup and interact with the server via ssh. Then a desktop environment is just a
+ waste of resources. 
+
+For installation of pivpn, installation is automated and you can run the install via curl piped to bash. 
+`curl -L https://install.pivpn.io | bash`
+
+The next portion is adding pivpn. This is a project that makes the implementation of openvpn or gateguard vpn very easy. Installation comes from a script. 
+And most of the set for the more difficult options like IP tables is largely done automatically. 
+
+The final steps is to make your vpn accessible from the outside. This step is little tricky in the sense that poor configurations can lead to unwelcome 
+digital visitors so if you find unsure. The best course of action would be to research or ask questions first. This is also different for every router and 
+IP, so I can’t really add anything more than an outline. 
+
+First you’ll want to determine if/how often your home IP address changes. There are several dynamic DNS options such as no-ip.com that you can you. You 
+will also likely want to consider unattended updates to keep your server secured. There is also the option to adjust the port, which can help avoid 
+automated scans as well. 
+
+Its a quick and simple layout, with open source projects such as pvpn doing much of the heavy lifting like IP tables. If you run into problems you can 
+always hit me up on social at bluesky using the handle https://bsky.app/profile/jlolzzz.bsky.social
