@@ -20,11 +20,11 @@ For this I have a raspberry pi 4, with a stacked case, and pivpn.
 
 Links:
 
-https://www.pivpn.io/
+[Raspberry Pi vpn site](https://www.pivpn.io/)
 
-https://www.amazon.com/s?k=raspberry+pi+4&adgrpid=1343603780097116&hvadid=83975450740109&hvbmt=be&hvdev=c&hvlocphy=91114&hvnetw=o&hvqmt=e&hvtargid=kwd-83975594152578:loc-190&hydadcr=18004_13443519&msclkid=5df3113a99d61f90e94b7678ab2122a4&tag=mh0b-20&ref=pd_sl_264yo59vid_e
+[Raspberry pi on Amazon](https://www.amazon.com/s?k=raspberry+pi+4&adgrpid=1343603780097116&hvadid=83975450740109&hvbmt=be&hvdev=c&hvlocphy=91114&hvnetw=o&hvqmt=e&hvtargid=kwd-83975594152578:loc-190&hydadcr=18004_13443519&msclkid=5df3113a99d61f90e94b7678ab2122a4&tag=mh0b-20&ref=pd_sl_264yo59vid_e)
 
-https://www.raspberrypi.com/software/
+[Link to pi imager](https://www.raspberrypi.com/software/)
 
 The easiest way to set it up is with the raspberry pi imager linked above. While there are other options like the dd command. This one is pretty easy and 
 allows you to adjust the configuration quickly. Its a good idea to create a user and not use the default passwords. It also helps with finishing the setup 
@@ -49,4 +49,4 @@ will also likely want to consider unattended updates to keep your server secured
 automated scans as well. 
 
 Its a quick and simple layout, with open source projects such as pvpn doing much of the heavy lifting like IP tables. If you run into problems you can 
-always hit me up on social at bluesky using the handle https://bsky.app/profile/jlolzzz.bsky.social
+always hit me up on social at bluesky using the handle [jlolzzz@bsky.social](https://bsky.app/profile/jlolzzz.bsky.social)
