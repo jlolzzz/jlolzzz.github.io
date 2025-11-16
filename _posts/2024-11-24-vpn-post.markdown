@@ -48,5 +48,4 @@ First you’ll want to determine if/how often your home IP address changes. Ther
 will also likely want to consider unattended updates to keep your server secured. There is also the option to adjust the port, which can help avoid 
 automated scans as well. 
 
-Its a quick and simple layout, with open source projects such as pvpn doing much of the heavy lifting like IP tables. If you run into problems you can 
-always hit me up on social at bluesky using the handle [jlolzzz@bsky.social](https://bsky.app/profile/jlolzzz.bsky.social)
+Its a quick and simple layout, with open source projects such as pvpn doing much of the heavy lifting like IP tables.
